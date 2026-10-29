@@ -1,0 +1,17 @@
+== state: fake NNTP server killed; job 'labtest-watched' was mid-download ==
+== add another NZB with no server listening ==
+{"status":true,"nzo_ids":["6198b118-4c8d-426e-ab31-78e49e360d6f"]}
+== queue state ==
+slot: labtest-watched | status: Downloading
+slot: labtest-noserver | status: Downloading
+== warnings ==
+            "text": "Failed to connect: [Errno 111] Connection refused 2@127.0.0.1:1199 (127.0.0.1)",
+            "text": "Failed to connect: [Errno 111] Connection refused 3@127.0.0.1:1199 (127.0.0.1)",
+            "text": "Failed to connect: [Errno 111] Connection refused 1@127.0.0.1:1199 (127.0.0.1)",
+            "text": "Failed to connect: [Errno 111] Connection refused 4@127.0.0.1:1199 (127.0.0.1)",
+== SABnzbd log, latest connection errors ==
+2026-10-29 18:28:29,992::WARNING::[newswrapper:705] Failed to connect: [Errno 111] Connection refused 3@127.0.0.1:1199 (127.0.0.1)
+2026-10-29 18:28:29,993::INFO::[downloader:663] 1@127.0.0.1: Initiating connection
+2026-10-29 18:28:29,999::WARNING::[newswrapper:705] Failed to connect: [Errno 111] Connection refused 1@127.0.0.1:1199 (127.0.0.1)
+2026-10-29 18:28:30,005::INFO::[downloader:663] 4@127.0.0.1: Initiating connection
+2026-10-29 18:28:30,007::WARNING::[newswrapper:705] Failed to connect: [Errno 111] Connection refused 4@127.0.0.1:1199 (127.0.0.1)

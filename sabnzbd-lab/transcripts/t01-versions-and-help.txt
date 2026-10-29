@@ -1,0 +1,37 @@
+Python 3.12.3
+CherryPy           18.10.0
+configobj          5.0.9
+cryptography       50.0.2
+ct3                3.4.0.post5
+feedparser         6.0.12
+sabctools          9.6.3
+
+Usage: SABnzbd.py [-f <configfile>] <other options>
+
+Options marked [*] are stored in the config file
+
+Options:
+  -f  --config-file <ini>     Location of config file
+  -s  --server <srv:port>     Listen on server:port [*]
+  -t  --templates <templ>     Template directory [*]
+
+  -l  --logging <-1..2>       Set logging level (-1=off, 0=least,2= most) [*]
+  -w  --weblogging            Enable cherrypy access logging
+
+  -b  --browser <0..1>        Auto browser launch (0= off, 1= on) [*]
+  -d  --daemon                Fork daemon process
+      --pid <path>            Create a PID file in the given folder (full path)
+      --pidfile <path>        Create a PID file with the given name (full path)
+
+  -h  --help                  Print this message
+  -v  --version               Print version information
+  -c  --clean                 Remove queue, cache and logs
+  -p  --pause                 Start in paused mode
+      --repair                Add orphaned jobs from the incomplete folder to the queue
+      --repair-all            Try to reconstruct the queue from the incomplete folder
+                              with full data reconstruction
+      --https <port>          Port to use for HTTPS server
+      --ipv6_hosting <0|1>    Listen on IPv6 address [::1] [*]
+      --inet_exposure <0..5>  Set external internet access [*]
+      --no-login              Start with username and password reset
+      --log-all               Log all article handling (for developers)

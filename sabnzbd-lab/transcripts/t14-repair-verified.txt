@@ -1,0 +1,11 @@
+== repaired file vs original payload ==
+773936605473b5b72eb4ea5150fe1a74e51398d6a317d5cf10ba30f4a50624ef  /home/hatch/workspace/sabnzbd-lab-work/config-fresh/Downloads/complete/labtest-repair/labtest-repair.bin
+773936605473b5b72eb4ea5150fe1a74e51398d6a317d5cf10ba30f4a50624ef  /home/hatch/workspace/sabnzbd-lab-work/data/payload.bin
+CMP: byte-identical - the missing 30,000 bytes were rebuilt by PAR2 repair
+
+== post-processing stages reported for the job ==
+stage: Source -> labtest-repair.nzb
+stage: Download -> Downloaded in 0 seconds at an average of 1.9 MB/s<br/>Age: 301d<br/>1 articles were malformed<br/>1 articles were missing
+stage: Servers -> 127.0.0.1=153 KB
+stage: Repair -> [labtest-repair payload.bin] Verified in 0 seconds, repair is required; [labtest-repair payload.bin] Repaired in 0 seconds; Trying RAR renamer
+stage: Deobfuscate -> Deobfuscate renamed 1 file(s)

@@ -1,0 +1,32 @@
+== GET / ==
+HTTP/1.1 303 See Other
+Content-Type: text/html;charset=utf-8
+Server: CherryPy/18.10.0
+Date: Thu, 29 Oct 2026 18:24:09 GMT
+X-Frame-Options: SameOrigin
+Location: /wizard/
+Vary: Accept-Encoding
+Content-Length: 62
+
+== GET /wizard/ (step 1: language) ==
+<title>SABnzbd Quick-Start Wizard</title>
+<h1>SABnzbd Quick-Start Wizard</h1>
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"
+name="lang"

@@ -1,0 +1,5 @@
+== create RSS feed 'labfeed' via API ==
+{"config":{"rss":[{"name":"labfeed","uri":["http://127.0.0.1:8099/feed.xml"],"cat":"documents","pp":"","script":"","enable":1,"priority":-100,"filter0":["","","","A","*",-100,"1"]}]}}
+== read RSS feeds back ==
+{"config":{"rss":[{"name":"labfeed","uri":["http://127.0.0.1:8099/feed.xml"],"cat":"documents","pp":"","script":"","enable":1,"priority":-100,"filter0":["","","","A","*",-100,"1"]}]}}
+== force-fetch attempt: mode=rss_fetch returned {"status":false,"error":"not implemented"} — the poll cycle is schedule-driven (default 15 min); feed creation/readback above is the verified part ==

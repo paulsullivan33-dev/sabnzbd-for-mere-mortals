@@ -1,0 +1,5 @@
+== set watched folder via API ==
+{"config":{"misc":{"dirscan_dir":"/home/hatch/workspace/sabnzbd-lab-work/watched"}}}
+dropped labtest-watched.nzb into the watched folder; waiting for the scan...
+== queue after scan ==
+slots: [('labtest-watched', 'Downloading')]

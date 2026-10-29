@@ -1,0 +1,53 @@
+fake NNTP server listening on 127.0.0.1:1199
+--- connection opened ---
+--- connection opened ---
+C: authinfo user labuser
+C: authinfo user labuser
+C: authinfo pass labpass
+C: authinfo pass labpass
+C: BODY <labtest-5.1.3-part1@example.invalid>
+C: BODY <labtest-5.1.3-part2@example.invalid>
+C: BODY <labtest-5.1.3-part4@example.invalid>
+C: BODY <labtest-5.1.3-part3@example.invalid>
+C: BODY <labtest-5.1.3-part1@example.invalid>
+C: BODY <labtest-5.1.3-part2@example.invalid>
+C: BODY <labtest-5.1.3-part3@example.invalid>
+C: BODY <labtest-5.1.3-part4@example.invalid>
+C: BODY <labtest-5.1.3-part1@example.invalid>
+C: BODY <labtest-payload-bin-par2-part1@example.invalid>
+C: BODY <labtest-payload-bin-vol0+1-par2-part1@example.invalid>
+C: BODY <labtest-5.1.3-part2@example.invalid>
+C: BODY <labtest-5.1.3-part3@example.invalid>
+C: BODY <labtest-missing-segment@example.invalid>
+C: BODY <labtest-payload-bin-vol0+1-par2-part2@example.invalid>
+C: QUIT
+--- connection closed ---
+C: QUIT
+--- connection closed ---
+fake NNTP server listening on 127.0.0.1:1199
+--- connection opened ---
+--- connection closed ---
+--- connection opened ---
+--- connection opened ---
+--- connection opened ---
+--- connection opened ---
+C: authinfo user labuser
+C: authinfo user labuser
+C: authinfo user labuser
+C: authinfo pass labpass
+C: authinfo pass labpass
+C: authinfo pass labpass
+C: BODY <labtest-5.1.3-part1@example.invalid>
+C: BODY <labtest-payload-bin-par2-part1@example.invalid>
+C: BODY <labtest-payload-bin-vol0+2-par2-part1@example.invalid>
+C: BODY <labtest-missing-segment@example.invalid>
+C: BODY <labtest-5.1.3-part2@example.invalid>
+C: BODY <labtest-5.1.3-part3@example.invalid>
+C: BODY <labtest-payload-bin-vol0+2-par2-part2@example.invalid>
+C: BODY <labtest-payload-bin-vol0+2-par2-part3@example.invalid>
+C: QUIT
+--- connection closed ---
+C: QUIT
+--- connection closed ---
+C: QUIT
+--- connection closed ---

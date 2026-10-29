@@ -1,0 +1,18 @@
+== addfile: labtest-repair.nzb (segment 4 does not exist on the server) ==
+{"status":true,"nzo_ids":["7cd45a7d-9ab8-4112-92af-645d9231089e"]}
+still working... (1)
+still working... (2)
+still working... (3)
+still working... (4)
+still working... (5)
+still working... (6)
+still working... (7)
+still working... (8)
+still working... (9)
+still working... (10)
+still working... (11)
+still working... (12)
+
+== outcome, attempt 1 (history) ==
+labtest-repair | Failed | 'Repair failed, not enough repair blocks (1 short)'
+The fixture was regenerated with two recovery blocks and rerun - see t13/t14.

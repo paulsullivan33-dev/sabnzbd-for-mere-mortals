@@ -1,0 +1,4 @@
+== repair attempt 2: two recovery blocks for one missing segment ==
+(attempt 1 with a single recovery block failed: 'not enough repair blocks (1 short)' - kept in t12)
+{"status":true,"nzo_ids":["c12fcbe0-88a5-4df0-b5df-f4b976b33078"]}
+history: labtest-repair | Completed | '' | /home/hatch/workspace/sabnzbd-lab-work/config-fresh/Downloads/complete/labtest-repair/labtest-repair.bin

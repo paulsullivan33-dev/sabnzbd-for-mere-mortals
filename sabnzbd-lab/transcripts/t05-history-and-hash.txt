@@ -1,0 +1,20 @@
+file: /home/hatch/workspace/sabnzbd-lab-work/config-fresh/Downloads/complete/labtest/labtest.bin
+773936605473b5b72eb4ea5150fe1a74e51398d6a317d5cf10ba30f4a50624ef  /home/hatch/workspace/sabnzbd-lab-work/config-fresh/Downloads/complete/labtest/labtest.bin
+773936605473b5b72eb4ea5150fe1a74e51398d6a317d5cf10ba30f4a50624ef  /home/hatch/workspace/sabnzbd-lab-work/data/payload.bin
+CMP: byte-identical to the original payload
+
+== history entry, fuller ==
+                "name": "labtest",
+                "category": "*",
+                "pp": "D",
+                "script": "None",
+                "status": "Completed",
+                "storage": "/home/hatch/workspace/sabnzbd-lab-work/config-fresh/Downloads/complete/labtest/labtest.bin",
+                        "name": "Source",
+                        "name": "Download",
+                        "name": "Servers",
+                        "name": "Repair",
+                        "name": "Deobfuscate",
+                "fail_message": "",
+                "bytes": 122409,
+                "size": "120 KB",

@@ -1,0 +1,4 @@
+== addfile: upload labtest.nzb ==
+{"status":true,"nzo_ids":["c8658419-1615-4eab-a4a9-0f92f0d0bde7"]}
+== queue while working ==
+paused: False speed: 0 slots: []
