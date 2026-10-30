@@ -129,8 +129,9 @@ the downloader's mechanics, with a test
 file and freely available material as
 the standing examples. Reading and
 posting in discussion groups is a
-newsreader's job, covered by the Usenet
-guide in this series. Running SABnzbd as
+newsreader's job, covered by the
+[Usenet guide](https://paulsullivan33-dev.github.io/usenet-for-mere-mortals/)
+in this series. Running SABnzbd as
 a public internet service is out of
 scope and out of character — it is a
 tool for your own network, and the
@@ -162,6 +163,7 @@ This guide is one of the [For Mere Mortals](https://paulsullivan33-dev.github.io
 
 Related guides:
 
+- [Usenet for Mere Mortals](https://paulsullivan33-dev.github.io/usenet-for-mere-mortals/)
 - [aria2 for Mere Mortals](https://paulsullivan33-dev.github.io/aria2-for-mere-mortals/)
 - [APIs for Mere Mortals](https://paulsullivan33-dev.github.io/api-for-mere-mortals/)
 
